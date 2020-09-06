@@ -1,0 +1,25 @@
+# List of enabled worlds
+enabled_worlds:
+  - world
+# List of items that can harvest
+# Hand = AIR
+# None = [] after :
+harvest_tools:
+  - WOODEN_HOE
+  - STONE_HOE
+  - GOLDEN_HOE
+  - IRON_HOE
+  - DIAMOND_HOE
+  - NETHERITE_HOE
+# If this is true then only crops that are fully grown can be harvested
+# You will never be able to harvest level 0 crops to prevent duping.
+allow_only_grown: false
+messages:
+  prefix: "§e[§fSafeHarvest§e]§7 "
+  cant_break_lowest: "You are not allowed to break the lowest crop."
+  only_grown: "You can only harvest fully grown crops."
+  no_young: "You cant harvest fresh crops."
+# Note:
+# The crops will only be protected if the player cant break
+# them on default. (If for example protected by WorldGuard)
+trigger_on_success: true

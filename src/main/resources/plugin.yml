@@ -1,0 +1,7 @@
+name: SafeHarvest
+version: ${project.version}
+main: com.gestankbratwurst.safeharvest.SafeHarvest
+api-version: 1.16
+authors: [Gestankbratwurst]
+description: Prevents depletion of crops in protected worlds
+softdepend: [Essentials, EssentialsX, WorldGuard]
